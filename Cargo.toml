@@ -1,0 +1,15 @@
+[package]
+name = "logger"
+version = "0.1.0"
+authors = ["Rakshith Ravi <rakshith.ravi@gmx.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-std = { version = "1.5.0", features = ["attributes"] }
+juno = "0.1.0"
+clap = "2.33.0"
+lazy_static = "1.4.0"
+futures = "0.3.4"
+colored = "1.9.3"
